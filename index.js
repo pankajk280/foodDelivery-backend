@@ -6,7 +6,7 @@ mongoDB();
 require('dotenv').config()
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", port);
+  res.setHeader("Access-Control-Allow-Origin", "https://food-delivary-foodify.onrender.com/");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
